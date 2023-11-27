@@ -191,3 +191,70 @@ a{
 .a__information{
     color: rgb(0, 170, 255);
 }
+
+
+
+/* Section Course */
+.course{
+    background-color: lightgray;
+}
+
+.h2__course{
+
+    padding: 32px 0px;
+    text-align: center;
+}
+
+.course__containter{ /*Course Container*/
+    padding: 0px 72px 32px 72px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 32px;
+
+}
+
+.course__content{ /*Course Content*/
+    background-color: white;
+
+    width: 25%;
+    flex-grow: 1;
+}
+
+.course__img__box{ /*Course IMG*/
+    width: 100%;
+    height: auto
+}
+
+.img__course{
+    width: 100%;
+    height: auto;
+}
+
+.course__text__box{  /*Course Text*/
+    padding: 16px 16px 24px 16px;
+}
+
+.h3__course{
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+.p__course{
+    color: rgb(148, 146, 146);
+
+    padding: 8px 0px;
+    font-size: 1.3vw;
+    font-weight: 100;
+}
+
+.p__course__description{
+    color: rgb(148, 146, 146);
+
+    font-size: 1.3vw;
+    font-weight: 100;
+}
+
+
+
