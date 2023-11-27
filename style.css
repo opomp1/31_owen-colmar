@@ -173,6 +173,7 @@ li:hover{
 
 
 
+
 .information__container__right{ /*Information Right*/
     width: 40%;
     padding-top: 32px;
@@ -542,5 +543,35 @@ li:hover{
         font-size: 1em;
     }
     
+
+
+/* Section Thesis */
+    .h2__thesis__header{
+        font-size: 2em;
+
+        margin: 32px 0px 16px 0px;
+    }
+    
+    .thesis__container{
+     margin: 0px;   
+    }
+
+    .thesis__container__left{
+        width: 100%;
+        padding: 0px 0px 24px 0px;
+    }
+
+
+
+    /*Footer  */
+
+    .footer__container{
+        font-size: 0.6em;
+        padding: 16px 16px;
+        height: 64px;
+        border: none;
+        justify-content: flex-start;
+
+    }
 
 }
