@@ -30,6 +30,10 @@
     display: flex;
 }
 
+.nav__logo__left{
+    display: flex;
+}
+
 .h2__nav__thin{
     color: rgb(169, 165, 165);
     font-weight: 400;
@@ -66,8 +70,8 @@ li{
 li:hover{
     /* border-bottom: 1px solid black; */
 
-    letter-spacing: 0.2em;
-    background-image: linear-gradient(to right top, #a3a3a3, #b5b5b5, #c6c6c6, #d9d9d9, #ebebeb);
+    letter-spacing: 0.1em;
+    background-color: rgba(212, 212, 212, 0.5);
     border-radius: 5px;
     padding: 8px;
 
@@ -386,4 +390,77 @@ li:hover{
 
 .a__footer:hover{
     text-decoration: underline;
+}
+
+
+.mobile{
+    display: none;
+}
+/*Mobile Screen*/
+
+@media screen and (max-width: 480px){
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+
+
+
+    /*Header*/
+
+    header{
+
+        display: flex;
+    }
+
+    .nav{
+
+        width: 100%;
+    }
+    .nav__logo{
+ 
+        
+        justify-content: space-evenly;
+    }
+
+
+
+    /* Section Hero */
+    .hero{
+        padding: 0px;
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .hero__container__left{
+        padding: 0;
+        width: 100%;
+    }
+
+    .hero__container__right{
+        padding: 32px 16px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .h2__hero{
+        font-size: 2.6em;
+    }
+
+    .h3__hero{
+
+        padding: 32px 0px 24px 0px;
+        font-size: 1.5em;
+    }
+
+    .button__hero{
+        font-size: 1em;
+    }
+    
 }
