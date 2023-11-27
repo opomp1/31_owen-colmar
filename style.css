@@ -462,5 +462,53 @@ li:hover{
     .button__hero{
         font-size: 1em;
     }
-    
+
+
+
+    /* Informatiom */
+
+    .information{
+        padding: 16px 16px 32px 16px;
+ 
+    }
+    .information__container__right{
+        padding: 0px;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+        
+    }
+    .information__content__right{
+        padding: 0px;
+        border-bottom: none;
+
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .information__right__img{
+        width: 100%;
+        padding: 0px;
+    }
+
+
+
+    .information__right__text{
+        padding-right: 20%;
+        padding-left: 16px;
+
+        width: 100%;
+    }
+
+    .h3__information{
+
+        font-size: 1.7em;
+
+    }
+
+
 }
