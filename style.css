@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER */
+/* header{
+    background-color: black;
+    height: 64px;
+} */
+.nav{
+    /* background-color: wheat; */
+    margin: 0px 24px;
+    height: 64px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo{/* HEADER-NAV-Left Side */
+    /* background-color: red; */
+    flex: 1;
+    height: 50%;
+
+    display: flex;
+}
+
+.h2__nav__thin{
+    color: rgb(169, 165, 165);
+    font-weight: 400;
+}
+
+
+
+.nav__right{/* HEADER-NAV-Right Side */
+    /* background-color: blue; */
+    flex: 1;
+    height: 50%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+ul{
+    /* background-color: antiquewhite; */
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+li{
+    font-size: 1.5vw;
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/* Section: Hero */
+
+.hero{
+    background-color:lightgray ;
+    padding: 32px 0px;
+
+    display: flex;
+}
+
+
+.hero__container__left{ /*Hero Left*/
+    width: 60%;
+    padding: 0px 24px;
+}
+
+.img__hero{
+    width: 100%;
+}
+
+
+.hero__container__right{    /*Hero Right*/
+    width: 40%;
+    padding-right: 12.1vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.h2__hero{
+
+    font-size: 3.2vw;
+    line-height: 1.2em;
+}
+
+.h3__hero{
+    font-size: 1.5vw;
+    margin: 2vw 0px;
+}
+
+.button__hero{
+    background-color: rgb(80, 80, 80);
+    color: white;
+
+    font-size: 1.3vw;
+
+    width: 100%;
+    padding: 8px 0px;
+}
